@@ -3,9 +3,21 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
+import { cn } from "../lib/utils";
+import { usePathname } from "next/navigation";
+
+const navItems = [
+  { label: "홈", href: "/" },
+  { label: "네트워크 공사", href: "/construction" },
+  { label: "네트워크 설계/구축", href: "/design" },
+  { label: "정보통신 유지보수", href: "/maintenance" },
+  { label: "회사소개", href: "/about" },
+];
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -29,21 +41,18 @@ export default function Header() {
         </div>
 
         <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-800">
-          <a
-            href="/network-construction-content"
-            className="hover:text-blue-600 transition"
-          >
-            네트워크 공사
-          </a>
-          <a href="#design" className="hover:text-blue-600 transition">
-            네트워크 설계/구축
-          </a>
-          <a href="#maintenance" className="hover:text-blue-600 transition">
-            정보통신 유지보수
-          </a>
-          <a href="#about" className="hover:text-blue-600 transition">
-            회사소개
-          </a>
+          {navItems.map(({ label, href }) => (
+            <Link
+              key={href}
+              href={href}
+              className={cn(
+                "text-gray-700 hover:text-black transition",
+                pathname === href && "font-bold"
+              )}
+            >
+              {label}
+            </Link>
+          ))}
         </nav>
 
         <div className="text-xs md:text-sm text-right leading-tight hidden md:block">
@@ -64,18 +73,19 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden fixed top-16 left-0 w-full bg-white shadow-md py-4 px-6 z-40">
           <nav className="flex flex-col gap-4 text-base font-medium text-gray-800">
-            <a href="#network-construction" onClick={toggleMenu}>
-              네트워크 공사
-            </a>
-            <a href="#design" onClick={toggleMenu}>
-              네트워크 설계/구축
-            </a>
-            <a href="#maintenance" onClick={toggleMenu}>
-              정보통신 유지보수
-            </a>
-            <a href="#about" onClick={toggleMenu}>
-              회사소개
-            </a>
+            {navItems.map(({ label, href }) => (
+              <Link
+                key={href}
+                href={href}
+                className={cn(
+                  "text-gray-700 hover:text-black transition",
+                  pathname === href && "font-bold"
+                )}
+                onClick={toggleMenu}
+              >
+                {label}
+              </Link>
+            ))}
             <div className="mt-2 text-sm text-blue-800">
               설계/구축/상담 : <span className="text-black">070-4035-0380</span>
             </div>
