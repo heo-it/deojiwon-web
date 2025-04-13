@@ -2,6 +2,7 @@ import React from "react";
 import "./globals.css";
 
 import localFont from "next/font/local";
+import Header from "../components/Header";
 
 const pretendard = localFont({
   src: "../assets/fonts/PretendardVariable.woff2",
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={pretendard.className}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
