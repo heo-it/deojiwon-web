@@ -30,7 +30,7 @@ export default function Header() {
 
         <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-800">
           <a
-            href="#network-construction"
+            href="/network-construction-content"
             className="hover:text-blue-600 transition"
           >
             네트워크 공사
@@ -47,7 +47,7 @@ export default function Header() {
         </nav>
 
         <div className="text-xs md:text-sm text-right leading-tight hidden md:block">
-          <p className="text-blue-800 font-semibold">
+          <p className="text-blue-800 font-semibold mb-1">
             설계/구축/상담 : <span className="text-black">070-4035-0380</span>
           </p>
           <p className="text-xs text-gray-600">
