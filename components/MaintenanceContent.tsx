@@ -28,7 +28,7 @@ export default function MaintenanceContent() {
         <div className="pt-4 pb-16">
           <MaintenanceImages />
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-12 mt-10 text-center text-sm sm:text-base font-medium ">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-12 mt-10 text-center text-sm sm:text-base font-medium ">
             {[
               "유지보수 관리자 선임",
               "장애처리 / 예방정비",
