@@ -75,7 +75,7 @@ export default function MaintenanceImages() {
         {images.map((src, i) => (
           <div
             key={i}
-            className="image-box overflow-hidden rounded shadow w-full max-w-[300px]"
+            className="image-box overflow-hidden rounded shadow w-full md:max-w-[300px]"
           >
             <Image
               src={src}

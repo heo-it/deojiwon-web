@@ -87,7 +87,7 @@ function Hexagon({
     <div
       className={cn(
         "w-[120px] h-[104px] md:w-[200px] md:h-[173px]",
-        "flex flex-col justify-center items-center text-center text-base md:text-lg font-medium p-1 md:p-4",
+        "flex flex-col justify-center items-center text-center text-xs md:text-lg font-medium p-1 md:p-4",
         "bg-gradient-to-br from-white to-blue-100 border border-gray-300 shadow-md",
         "clip-hexagon transition-all",
         center && "bg-orange-100 text-black font-bold",
