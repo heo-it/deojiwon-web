@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" className={pretendard.className}>
       <body>
         <Header />
-        {children}
+        <div className="pt-16 md:pt-20">{children}</div>
         <Footer />
       </body>
     </html>
