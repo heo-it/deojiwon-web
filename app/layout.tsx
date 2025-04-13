@@ -3,6 +3,7 @@ import "./globals.css";
 
 import localFont from "next/font/local";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const pretendard = localFont({
   src: "../assets/fonts/PretendardVariable.woff2",
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
