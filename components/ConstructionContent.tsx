@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export default function NetworkConstructionContent() {
+export default function ConstructionContent() {
   return (
     <section className="w-full bg-white text-gray-800">
       {/* 타이틀 */}
