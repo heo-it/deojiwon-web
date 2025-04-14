@@ -59,6 +59,13 @@ export const metadata = {
     "천안",
     "아산",
   ],
+  openGraph: {
+    title: "(주)더지원네트웍스",
+    description:
+      "(주)더지원네트웍스는 정보통신 설계, 시공, 감리, 유지보수, LAN 공사, 네트워크 구축, 초고속 광인프라 구축 사업을 전문으로 하는 기업입니다.",
+    siteName: "(주)더지원네트웍스",
+    images: ["/main-hero.png"],
+  },
   robots: {
     index: true,
     follow: true,
