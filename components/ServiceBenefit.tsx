@@ -20,7 +20,7 @@ export default function ServiceBenefit() {
         <BenefitItem icon={benefits[3].icon} label={benefits[3].label} />
         <BenefitItem icon={benefits[4].icon} label={benefits[4].label} />
       </div>
-      <div className="mt-4 text-lg font-semibold text-center">
+      <div className="mt-4 text-2xl font-semibold text-center">
         <span>신규 구축 / </span>
         <span>컨설팅</span>
         <span> / 이설 / 증설</span>
@@ -41,7 +41,7 @@ function BenefitItem({
       <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center">
         {icon}
       </div>
-      <div className="text-sm">{label}</div>
+      <div className="text-lg">{label}</div>
     </div>
   );
 }

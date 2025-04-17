@@ -5,10 +5,10 @@ export default function MainHero() {
       style={{ backgroundImage: "url('/main-hero.png')" }}
     >
       <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-center px-4 rounded-lg">
-        <h2 className="text-xl md:text-4xl font-bold text-white">
+        <h2 className="text-xl md:text-5xl font-bold text-white leading-relaxed">
           <span className="text-red-500">더</span> 편하고,{" "}
           <span className="text-red-500">더</span> 안전한
-          <br />
+          <br className="md:block" />
           업무 환경을 만들어 갑니다.
         </h2>
         <div className="mt-10 flex flex-wrap justify-center gap-6">

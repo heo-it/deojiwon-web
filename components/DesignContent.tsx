@@ -4,11 +4,9 @@ import ServiceBenefit from "./ServiceBenefit";
 export default function DesignContent() {
   return (
     <section className="w-full bg-white text-gray-800">
-      {/* 타이틀 */}
       <div className="max-w-screen-xl mx-auto px-4 py-10">
         <h1 className="hidden">네트워크 설계/구축</h1>
 
-        {/* 강조 문구 (Hero 스타일) */}
         <div className="relative rounded-lg overflow-hidden">
           <Image
             src="/design-hero.png"
@@ -18,11 +16,11 @@ export default function DesignContent() {
             className="w-full h-64 md:h-96 object-cover"
           />
           <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-            <p className="text-white text-xl md:text-3xl font-semibold text-center px-4 leading-relaxed">
+            <p className="text-white text-xl md:text-5xl font-semibold text-center px-4 leading-relaxed">
               <span className="text-red-500 font-bold">
                 경제성/안정성/보안성
               </span>{" "}
-              높은 <br className="md:hidden" />
+              높은 <br className="md:block" />
               최적 네트워크를 구축합니다.
             </p>
           </div>
