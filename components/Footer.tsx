@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="space-y-1 leading-relaxed">
           <p>(주)더지원네트웍스</p>
           <p>
-            경기도 평택시 관광로 84 | 정보통신공사업: 제311061호 | 엔지니어링업:
+            경기도 평택시 관동길 84 | 정보통신공사업: 제311061호 | 엔지니어링업:
             제E-06-001813호
           </p>
-          <p>대표자명: 최원희 | 전화: 070-4035-0380 | FAX: 031-691-0482</p>
+          <p>대표자명: 최보윤 | 전화: 070-4035-0380 | FAX: 031-691-0482</p>
         </div>
 
         {/* 로고 + 저작권 */}
@@ -24,7 +24,6 @@ export default function Footer() {
               height={40}
               className="object-contain"
             />
-            <span className="text-xs text-gray-600">(주) 더지원네트웍스</span>
           </div>
           <p className="text-xs text-gray-400 mt-4 md:mt-0">
             Copyright© 2025 DEOJIWON NETWORKS Co.,Ltd. ALL RIGHTS RESERVED.
