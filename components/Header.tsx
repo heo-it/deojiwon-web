@@ -29,18 +29,18 @@ export default function Header() {
             <Image
               src="/logo.png"
               alt="더지원네트웍스 로고"
-              width={120}
-              height={40}
-              className="md:w-[180px] md:h-[60px] w-[120px] h-[40px] object-contain"
+              width={90}
+              height={30}
+              className="md:w-[140px] md:h-[40px] w-[120px] h-[40px] object-contain"
               priority
             />
           </div>
-          <span className="text-[10px] text-gray-600 ml-1 hidden md:block">
+          <span className="text-lg text-gray-800 ml-1 hidden md:block">
             (주) 더지원네트웍스
           </span>
         </div>
 
-        <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-800">
+        <nav className="hidden md:flex gap-6 text-lg font-medium text-gray-800">
           {navItems.map(({ label, href }) => (
             <Link
               key={href}
@@ -55,11 +55,11 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="text-xs md:text-sm text-right leading-tight hidden md:block">
+        <div className="text-xs md:text-base text-right leading-tight hidden md:block">
           <p className="text-blue-800 font-semibold mb-1">
             설계/구축/상담 : <span className="text-black">070-4035-0380</span>
           </p>
-          <p className="text-xs text-gray-600">
+          <p className="text-sm text-gray-600">
             전화로 자세한 상담 및 견적을 확인하세요
           </p>
         </div>
@@ -86,7 +86,7 @@ export default function Header() {
                 {label}
               </Link>
             ))}
-            <div className="mt-2 text-sm text-blue-800">
+            <div className="mt-2 text-base text-blue-800">
               설계/구축/상담 : <span className="text-black">070-4035-0380</span>
             </div>
           </nav>
