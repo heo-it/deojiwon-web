@@ -13,12 +13,17 @@ const labels = [
 ];
 
 const achievements = [
+  { year: "2014년", text: "설립" },
+  { year: "2014년", text: "LGU+ HFC 청약공사" },
+  { year: "2015년", text: "KT 광통신 구축 공사" },
+  { year: "2018년", text: "한전 광단국 장치 교체 공사" },
   { year: "2023년", text: "평택교육청 학교 무선인프라 설계" },
   { year: "2023년", text: "평택시 방범 CCTV 설치공사" },
   { year: "2023년 ~ 25년", text: "평택해양경찰서 전산장비 유지보수" },
   { year: "2024년", text: "안성 금광초 통신공사 감리" },
   { year: "2024년", text: "평택지산초 현대화 통신공사" },
   { year: "2025년", text: "일산동구보건소 청사 건립 통신공사" },
+  { year: "2015년 ~ 25년", text: "LGU+ FTTH 청약 공사" },
 ];
 
 export default function BusinessArea() {
