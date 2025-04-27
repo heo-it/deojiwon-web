@@ -71,7 +71,7 @@ export default function FloatingContactButtons() {
             }
             className="whitespace-nowrap cursor-pointer"
           >
-            deojiwonnet@gmail.com
+            deojiwonnet@naver.com
           </span>
         </motion.div>
       </motion.div>
