@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="flex flex-col items-start md:flex-row md:justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="더지원네트웍스 로고"
               width={120}
               height={40}

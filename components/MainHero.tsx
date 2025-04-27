@@ -2,7 +2,7 @@ export default function MainHero() {
   return (
     <section
       className="relative h-[500px] bg-cover bg-center rounded-lg"
-      style={{ backgroundImage: "url('/main-hero.png')" }}
+      style={{ backgroundImage: "url('/main-hero.webp')" }}
     >
       <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-center px-4 rounded-lg">
         <h2 className="text-xl md:text-5xl font-bold text-white leading-relaxed">

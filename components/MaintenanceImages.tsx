@@ -8,15 +8,15 @@ export default function MaintenanceImages() {
   const [positions, setPositions] = useState<{ x: number; y: number }[]>([]);
 
   const images = [
-    "/maintenance-1.png",
-    "/maintenance-2.png",
-    "/maintenance-3.png",
-    "/maintenance-4.png",
-    "/maintenance-5.png", // 중심 이미지 (index 4)
-    "/maintenance-6.png",
-    "/maintenance-7.png",
-    "/maintenance-8.png",
-    "/maintenance-9.png",
+    "/maintenance-1.webp",
+    "/maintenance-2.webp",
+    "/maintenance-3.webp",
+    "/maintenance-4.webp",
+    "/maintenance-5.webp", // 중심 이미지 (index 4)
+    "/maintenance-6.webp",
+    "/maintenance-7.webp",
+    "/maintenance-8.webp",
+    "/maintenance-9.webp",
   ];
 
   useEffect(() => {

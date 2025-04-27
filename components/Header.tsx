@@ -27,7 +27,7 @@ export default function Header() {
         <div className="flex flex-col justify-center">
           <div className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="더지원네트웍스 로고"
               width={90}
               height={30}

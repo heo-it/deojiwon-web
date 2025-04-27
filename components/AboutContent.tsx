@@ -9,7 +9,7 @@ export const AboutContent = () => {
 
         <div className="relative rounded-lg overflow-hidden">
           <Image
-            src="/about-hero.png"
+            src="/about-hero.webp"
             alt="회사 소개"
             width={1200}
             height={500}

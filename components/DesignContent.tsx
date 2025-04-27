@@ -9,7 +9,7 @@ export default function DesignContent() {
 
         <div className="relative rounded-lg overflow-hidden">
           <Image
-            src="/design-hero.png"
+            src="/design-hero.webp"
             alt="네트워크 설계/구축"
             width={1200}
             height={500}
@@ -29,7 +29,7 @@ export default function DesignContent() {
         <div className="flex flex-col md:flex-row gap-10 items-center justify-center gap-20 py-16 px-4 md:px-20">
           <div className="">
             <Image
-              src="/design-drawing.png"
+              src="/design-drawing.webp"
               alt="네트워크 설계/구축 도면"
               width={500}
               height={500}

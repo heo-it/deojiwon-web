@@ -66,7 +66,7 @@ export const metadata = {
     siteName: "(주)더지원네트웍스",
     images: [
       {
-        url: "https://d3s6d1ctpmgxva.cloudfront.net/main-hero.png",
+        url: "https://d3s6d1ctpmgxva.cloudfront.net/main-hero.webp",
         width: 800,
         height: 600,
       },

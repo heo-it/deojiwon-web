@@ -10,7 +10,7 @@ export default function ConstructionContent() {
 
         <div className="relative rounded-lg overflow-hidden">
           <Image
-            src="/network-hero.png"
+            src="/network-hero.webp"
             alt="네트워크 시공"
             width={1200}
             height={500}
@@ -43,12 +43,12 @@ export default function ConstructionContent() {
 
         <div className="grid md:grid-cols-3 gap-4 mt-10">
           {[
-            "/network-1.png",
-            "/network-2.png",
-            "/network-3.png",
-            "/network-4.png",
-            "/network-5.png",
-            "/network-6.png",
+            "/network-1.webp",
+            "/network-2.webp",
+            "/network-3.webp",
+            "/network-4.webp",
+            "/network-5.webp",
+            "/network-6.webp",
           ].map((src, i) => (
             <div key={i} className="overflow-hidden rounded shadow">
               <Image

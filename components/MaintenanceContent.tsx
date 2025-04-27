@@ -9,7 +9,7 @@ export default function MaintenanceContent() {
 
         <div className="relative rounded-lg overflow-hidden">
           <Image
-            src="/maintenance-hero.png"
+            src="/maintenance-hero.webp"
             alt="정보통신 유지보수"
             width={1200}
             height={500}

@@ -61,7 +61,7 @@ export default function BusinessArea() {
         <div className="space-y-6 shrink-0">
           <div>
             <h3 className="text-xl font-semibold mb-2">MAJOR PARTNER</h3>
-            <img src="/lg-uplus-logo.png" alt="LG U+" className="h-10" />
+            <img src="/lg-uplus-logo.webp" alt="LG U+" className="h-10" />
           </div>
           <ul className="space-y-2 text-lg">
             {achievements.map((item, idx) => (
