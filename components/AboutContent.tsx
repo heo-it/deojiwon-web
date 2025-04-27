@@ -19,9 +19,9 @@ export const AboutContent = () => {
           />
         </div>
 
-        <Map />
         <CEOMessage />
         <LicenseSection />
+        <Map />
       </div>
     </section>
   );
