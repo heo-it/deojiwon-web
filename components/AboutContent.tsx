@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LicenseSection from "./LicenseSection";
+import CEOMessage from "./CEOMessage";
 
 export const AboutContent = () => {
   return (
@@ -17,6 +18,7 @@ export const AboutContent = () => {
           />
         </div>
 
+        <CEOMessage />
         <LicenseSection />
       </div>
     </section>
