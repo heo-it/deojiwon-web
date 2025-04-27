@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function LicenseSection() {
   return (
-    <section className="py-16 px-4 md:px-20">
+    <section className="flex flex-col items-center mt-16 px-4 text-center">
       <h3 className="text-2xl font-semibold text-center mb-12">면허증</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <LicenseCard title="정보통신공사업" imageSrc="/license-1.webp" />
