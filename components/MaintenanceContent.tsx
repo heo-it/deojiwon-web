@@ -34,8 +34,8 @@ export default function MaintenanceContent() {
           >
             {[
               "유지보수 관리자 선임",
-              "장애처리 / 예방정비",
-              "성능개선 / 증설",
+              "정기 성능점검",
+              "반기 유지보수 / 관리",
             ].map((item, i) => (
               <div
                 key={i}
