@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import FloatingContactButtons from "../components/FloatingContactButtons";
+import Script from "next/script";
 
 const pretendard = localFont({
   src: "../assets/fonts/PretendardVariable.woff2",
@@ -18,7 +19,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={pretendard.className}>
+    <html lang="ko" className={pretendard.className}>
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17079959820"
+        />
+        <Script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-17079959820');`}
+        </Script>
+      </head>
       <body>
         <main>
           <Header />
