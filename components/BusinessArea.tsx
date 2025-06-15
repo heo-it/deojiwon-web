@@ -7,7 +7,7 @@ const labels = [
   "정보통신\n설계 / 감리\n(엔지니어링업)",
   "네트워크\n공사\n(LAN/전화/CCTV)",
   "네트워크\n설계 / 구축\n(IT인프라/전화망)",
-  "정보통신\n유지보수\n(빌딩/기업/아파트)",
+  "정보통신설비\n유지보수/관리\n(빌딩/기업/아파트)",
   "정보통신\n공사\n(정보통신공사업)",
   "초고속\n자가망/인프라\n구축",
 ];
@@ -16,6 +16,7 @@ const achievements = [
   { year: "2014년", text: "설립" },
   { year: "2014년", text: "LGU+ HFC 청약공사" },
   { year: "2015년", text: "KT 광통신 구축 공사" },
+  { year: "2017년", text: "LGU+ FTTH 청약 공사" },
   { year: "2018년", text: "한전 광단국 장치 교체 공사" },
   { year: "2023년", text: "평택교육청 학교 무선인프라 설계" },
   { year: "2023년", text: "평택시 방범 CCTV 설치공사" },
@@ -23,7 +24,6 @@ const achievements = [
   { year: "2024년", text: "안성 금광초 통신공사 감리" },
   { year: "2024년", text: "평택지산초 현대화 통신공사" },
   { year: "2025년", text: "일산동구보건소 청사 건립 통신공사" },
-  { year: "2015년 ~ 25년", text: "LGU+ FTTH 청약 공사" },
 ];
 
 export default function BusinessArea() {
@@ -59,10 +59,6 @@ export default function BusinessArea() {
         </div>
 
         <div className="space-y-6 shrink-0">
-          <div>
-            <h3 className="text-xl font-semibold mb-2">MAJOR PARTNER</h3>
-            <img src="/lg-uplus-logo.webp" alt="LG U+" className="h-10" />
-          </div>
           <ul className="space-y-2 text-lg">
             {achievements.map((item, idx) => (
               <li key={idx}>

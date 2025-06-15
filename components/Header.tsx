@@ -11,7 +11,7 @@ const navItems = [
   { label: "홈", href: "/" },
   { label: "네트워크 공사", href: "/construction" },
   { label: "네트워크 설계/구축", href: "/design" },
-  { label: "정보통신 유지보수", href: "/maintenance" },
+  { label: "정보통신 유지보수/관리", href: "/maintenance" },
   { label: "회사소개", href: "/about" },
 ];
 

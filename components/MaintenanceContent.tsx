@@ -17,8 +17,8 @@ export default function MaintenanceContent() {
           />
           <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
             <p className="text-white text-xl md:text-5xl font-semibold text-center px-4 leading-relaxed">
-              <span className="text-red-500 font-bold">빌딩/아파트</span>{" "}
-              정보통신 유지보수를 <br className="md:block" />
+              <span className="text-red-500 font-bold">건축물</span> 정보통신
+              유지보수를 <br className="md:block" />
               선도합니다.
             </p>
           </div>
