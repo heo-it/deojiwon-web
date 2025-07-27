@@ -24,6 +24,15 @@ const achievements = [
   { year: "2024년", text: "안성 금광초 통신공사 감리" },
   { year: "2024년", text: "평택지산초 현대화 통신공사" },
   { year: "2025년", text: "일산동구보건소 청사 건립 통신공사" },
+  {
+    year: "2025년",
+    text: `두산큐벡스(동대문 두타 등 7개 건물)`,
+  },
+  {
+    year: "2025년",
+    text: `YKK한국 등 정보통신설비 유지보수`,
+    hideTitle: true,
+  },
 ];
 
 export default function BusinessArea() {
@@ -62,8 +71,12 @@ export default function BusinessArea() {
           <ul className="space-y-2 text-lg">
             {achievements.map((item, idx) => (
               <li key={idx}>
-                <span className="font-bold">{item.year}</span>{" "}
-                <span>{item.text}</span>
+                <span
+                  className={`font-bold ${!!item?.hideTitle && "invisible"}`}
+                >
+                  {item.year}
+                </span>{" "}
+                <span className="whitespace-pre-line">{item.text}</span>
               </li>
             ))}
           </ul>
